@@ -1,3 +1,5 @@
+**This service is no longer maintained. Please use https://github.com/redpencilio/uuid-generation-service instead.**
+
 # UUID generation service
 
 Data used within a [semantic.works](http://semantic.works)-stack (and [mu-cl-resources](https://github.com/mu-semtech/mu-cl-resources) in particular) requires each RDF-object to  have a [mu:uuid](http://mu.semte.ch/vocabularies/core/uuid) property. Data imported from third parties might not have this uuid. Thus, in order to integrate with other sources while harnessing the power of semantic.works, uuid's need to be added to each imported object. This service does exactly that.
